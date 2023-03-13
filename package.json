@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "testcafe": "^2.4.0",
+    "testcafe-reporter-allure": "^1.0.5"
+  },
+  "name": "wikipediatest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
