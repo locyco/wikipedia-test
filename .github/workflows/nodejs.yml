@@ -1,0 +1,15 @@
+name: TestCafe workflow
+on: [push]
+
+jobs:
+  build:
+    name: Run Wikipedia tests
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install TEstCafe from npm and run tests
+    - uses: DevExpress/testcafe-action@latest
+      with:
+        args: "chrome tests"
+    
