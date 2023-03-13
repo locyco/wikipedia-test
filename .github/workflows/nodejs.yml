@@ -5,9 +5,8 @@ jobs:
   build:
     name: Run Wikipedia tests
     runs-on: windows-latest
-    
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v1
     - name: Install TEstCafe from npm and run tests
     - uses: DevExpress/testcafe-action@latest
       with:
